@@ -1,21 +1,27 @@
+
 .main {
   background-image: url("../images/Background-blackblue.jpg");
+  height: 650px;
 
 }
-
+.hello{
+  font-size: 30px;
+  position: relative;
+  top: 15px;
+}
 .sri {
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 50%;
   position: relative;
-  top: 70px;
+  top: 200px;
   left: 100px;
   color: white;
   width: 50%;
 }
 
 .sai {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   top: 5px;
@@ -24,50 +30,75 @@
   color: white;
   width: 50%;
 }
-span {
+.sai span {
   color: blue;
   transition: all 0.3s ease;
 }
 
 .top {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
-  left: 60%;
+  left: 55%;
   top: 25px;
   width: 100%;
 }
 
 .nav-bar{
   color: #fff;
-  margin-bottom: 1rem;
   text-decoration: none;
   padding: 0px 1rem;
 }
+/*
+  &:hover {
+    text-shadow: white;
+    color: #0916c7;
+  }*/
 
 
-.nav-bar:hover {
-  text-shadow: white;
-  color: #0916c7;
-}
 
-.nish {
-  font-size: 35px;
-  background-color: #0916c7;
+
+.hire {
+  font-size: 25px;
   color: white;
-  padding: 2px;
-  width: 155px;
+  background-color: #0916c7;
+  padding: 20px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 10px;
 }
-
-.nish:hover {
-  background-color: crimson;
-  margin: 0;
+.hire:hover{
+  color: #0916c7;
+  background: none;
+  display: block;
+  width: auto !important;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  border: 2px solid blue;
+  transition: all 0.3s ease;
 
 }
+.hire a:visited{
+  color: #0916c7;
+  background: none;
+  display: block;
+  width: auto !important;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  border: 2px solid blue;
+  transition: all 0.3s ease;
+
+}
+/*
+  &:hover {
+   background-color: crimson;
+  }*/
 
 button {
   font-size: 30px;
@@ -80,11 +111,16 @@ button {
 }
 
 .ysri {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  position: absolute;
 }
 
-img {
-  width: 110%;
+.ysri img {
+right: 0px;
+  width: 130%;
+  position: relative;
+  left: 200px;
+  bottom: 30px;
 
 }
 
@@ -125,9 +161,9 @@ img {
 .about1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: white;
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
-  top: 760px;
+  top: 880px;
   left: 580px;
   line-height: 0px;
 }
@@ -137,7 +173,7 @@ img {
   background-color: white;
   font-size: 20px;
   position: absolute;
-  top: 800px;
+  top: 920px;
   left: 580px;
   right: 160px;
   text-align: justify;
@@ -145,32 +181,69 @@ img {
   margin-bottom: 10px;
 }
 
-.download {
+.download a{
   font-family: 'Arial Narrow', Arial, sans-serif;
   background-color: crimson;
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  top: 330px;
-  left: 280px;
-  padding: 2px;
+  top:165px;
+  left: 240px;
+  padding: 10px;
   width: 200px;
-  color: #ffffff;
-  text-align: center;
+  color: #fff;
+  display: block;
+  width: auto !important;
+  outline: none;
   text-decoration: none;
-  display: inline-block;
-  border-radius: 10px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
 }
 
-.download:hover {
-  background-color: #2c09c7;
-
-  margin: 0;
-}
-
-.pic {
-  width: 280px;
+.download a:visited{
+  color: white;
+  text-decoration: none;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  background-color: crimson;
+  font-size: 20px;
   position: relative;
-  top: 80px;
+  
+  
+  display: block;
+  width: auto !important;
+  outline: none;
+  
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.download a:hover {
+  color: crimson;
+  display: block;
+  width: auto !important;
+  outline: none;
+  
+  border-radius: 4px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: none;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.pic img{
+  width: 320px;
+  position: relative;
+  top: 70px;
   left: 150px;
 }
 
@@ -262,6 +335,7 @@ span {
 
 .web:hover {
   background-color: crimson;
+  
 }
 
 .addtext i {
@@ -282,7 +356,7 @@ span {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 560px;
+  top: 150px;
 }
 
 .myskills {
@@ -293,18 +367,18 @@ span {
   color: black;
   line-height: 0px;
   position: relative;
-  top: 180px;
+  top: 40px;
 }
 
 .what1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: white;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   color: crimson;
   line-height: 10px;
   position: relative;
-  top: 180px;
+  top: 40px;
 }
 
 .what1 span {
@@ -320,10 +394,10 @@ span {
 .skillh1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: white;
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
-  top: 1770px;
-  right: 655px;
+  top: 2170px;
+  right: 855px;
   left: 5px;
   line-height: 0px;
 }
@@ -331,32 +405,32 @@ span {
 .skilldesc {
   font-family: 'Arial Narrow', Arial, sans-serif;
   background-color: white;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
-  top: 1800px;
-  right: 550px;
+  top: 2200px;
+  right: 700px;
   left: 70px;
   text-align: justify;
 
   margin-bottom: 10px;
 }
 
-.readmore {
+.readmore a{
   font-family: 'Arial Narrow', Arial, sans-serif;
 
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  top: 200px;
+  bottom: 300px;
   right: 30px;
   left: 60px;
-  padding: 2px;
+  padding: 8px;
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
   display: block;
   width: 150px !important;
-  height: 45px;
+  height: 25px;
   outline: none;
   font-weight: 500;
   border-radius: 6px;
@@ -367,18 +441,18 @@ span {
   transition: all 0.3s ease;
 }
 
-.readmore:hover {
+.readmore a:hover {
   color: crimson;
   background: none;
 }
 
 .rightside {
   position: relative;
-  left: 580px;
+  left: 700px;
 
   position: absolute;
   right: 50px;
-  top: 1780px;
+  top: 2190px;
 }
 
 .column {
@@ -399,7 +473,7 @@ span {
 
 .right span {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
   color: black;
 }
 
@@ -441,11 +515,11 @@ span {
 
 .fifthone {
   background-color: black;
-  height: 550px;
+  height: 650px;
   width: 100%;
   text-align: center;
   position: relative;
-  top: 300px;
+  bottom: 150px;
 }
 
 .team1 span {
@@ -467,7 +541,7 @@ span {
 .team1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: black;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   color: crimson;
   line-height: 10px;
@@ -481,11 +555,11 @@ span {
   color: white;
   display: inline-block;
   border-radius: 10px;
-  width: 90%;
-  height: 270px;
+  width: 120%;
+  height: 320px;
   position: relative;
-  top: 110px;
-  left: 150px;
+  top: 90px;
+  left: 200px;
 
 }
 
@@ -513,11 +587,11 @@ span {
   color: white;
   display: inline-block;
   border-radius: 10px;
-  width: 28%;
-  height: 270px;
+  width: 30%;
+  height: 320px;
   position: absolute;
-  top: 170px;
-  left: 580px;
+  top: 160px;
+  left: 700px;
 }
 
 .nandhutext {
@@ -545,6 +619,12 @@ span {
 .nandhu:hover {
   background-color: crimson;
 }
+.sixthone{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0px;
+}
 
 .contact {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -554,18 +634,18 @@ span {
   color: black;
   line-height: 0px;
   position: relative;
-  top: 250px;
+  top: 300px;
 }
 
 .getintouch {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: white;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   color: crimson;
   line-height: 10px;
   position: relative;
-  top: 250px;
+  top: 300px;
 }
 
 .getintouch span {
@@ -577,16 +657,16 @@ span {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 270px;
+  top: 320px;
 }
 
 .geth1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: white;
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
   top: 20px;
-  right: 880px;
+  right: 1125px;
   left: 0px;
   line-height: 0px;
 }
@@ -594,11 +674,11 @@ span {
 .getdesc {
   font-family: 'Arial Narrow', Arial, sans-serif;
   background-color: white;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   top: 50px;
   left: 40px;
-  right: 550px;
+  right: 700px;
   text-align: justify;
 
   margin-bottom: 10px;
@@ -607,8 +687,9 @@ span {
 .icons {
   margin: 10px 0;
   position: relative;
-  top: 120px;
-  left: 8px;
+  top: 140px;
+  left: 28px;
+  font-size: 20px;
 }
 
 .row1 {
@@ -617,7 +698,7 @@ span {
   text-align: left;
   margin-left: 30px;
 }
-
+/*
 .row2 {
   display: flex;
   height: 65px;
@@ -625,8 +706,8 @@ span {
   margin-left: 30px;
   position: relative;
   top: 50px;
-  right: 110px;
-}
+  right: 120px;
+}*/
 
 .row3 {
   display: flex;
@@ -634,82 +715,100 @@ span {
   text-align: left;
   margin-left: 30px;
   position: relative;
-  top: 50px;
-  right: 295px;
+  top: 70px;
+  right: 152px;
 }
 
-.row1 i {
+.row1 i{
   font-size: 35px;
   color: crimson;
+  position: relative;
+  right: 20px;
 }
-
+/*
 .row2 i {
   font-size: 35px;
   color: crimson;
   position: relative;
   left: 6px;
-}
+}*/
 
-.row3 i {
+.row3 i{
   font-size: 35px;
   color: crimson;
   position: relative;
-  left: 6px;
+  left: 130px;
+  bottom: 110px;
 }
 
 .info1 {
+  width: 100px;
   margin-left: 30px;
   font-weight: 500;
   color: #333;
+  position: relative;
+  bottom: 70px;
+  left: 30px;
+  text-align: justify;
 }
-
+/*
 .info2 {
   margin-left: 30px;
   font-weight: 500;
   color: #333;
-}
+}*/
 
 .info3 {
+  width: 250px;
   margin-left: 30px;
   font-weight: 500;
   color: #333;
+  position: relative;
+  bottom: 110px;
+  left: 30px;
+  text-align: justify;
+
 }
 
 .form {
   position: relative;
-  left: 180px;
+  left: 210px;
   right: 150px;
-  bottom: 220px;
+  top: 280px;
 }
 
 .text {
   font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
   position: relative;
-  right: 100px;
+  right: 120px;
+  top: 20px;
 }
 
 .fieldname {
+  width: 100%;
   position: relative;
-  right: 50px;
+  right: 55px;
 }
 
 .fieldemail {
+  width: 100%;
   position: relative;
-  left: 180px;
+  left: 220px;
   bottom: 60px;
 }
 
 .field {
-  width: 210%;
+  width: 202%;
   position: relative;
-  right: 520px;
+  right: 600px;
   bottom: 60px;
 }
 
 .fieldtextarea {
   height: 10px;
   position: relative;
-  left: 67px;
+  left: 80px;
   bottom: 50px;
 
 }
@@ -717,7 +816,7 @@ span {
 .button-area {
 
   position: relative;
-  left: 370px;
+  left: 480px;
   top: 50px;
   display: flex;
   align-items: center;
@@ -728,7 +827,7 @@ span {
   display: block;
   width: auto !important;
   outline: none;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 500;
   border-radius: 6px;
   cursor: pointer;
