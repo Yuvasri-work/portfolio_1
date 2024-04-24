@@ -49,6 +49,9 @@
   text-decoration: none;
   padding: 0px 1rem;
 }
+.nav-bar:hover{
+  text-decoration: underline;
+}
 /*
   &:hover {
     text-shadow: white;
